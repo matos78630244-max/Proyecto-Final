@@ -1,5 +1,10 @@
 services:
   - type: web
     name: trello-app
-    env: docker
+    env: node
+    buildCommand: |
+      composer install
+      npm install
+      npm run build
+    startCommand: php artisan serve --host 0.0.0.0 --port 10000
     plan: free
