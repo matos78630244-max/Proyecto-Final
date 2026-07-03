@@ -1,0 +1,21 @@
+{
+    "php": {
+        "version": "8.4",
+        "extensions": [
+            "bcmath",
+            "pdo",
+            "pdo_pgsql",
+            "pgsql",
+            "mbstring",
+            "xml",
+            "curl",
+            "zip",
+            "gd",
+            "intl",
+            "tokenizer",
+            "ctype",
+            "fileinfo",
+            "openssl"
+        ]
+    }
+}
